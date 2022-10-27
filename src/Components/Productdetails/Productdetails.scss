@@ -1,0 +1,203 @@
+.main-wrapper {
+    .nav-wrapper {
+        display: inline-flex;
+
+        .nav-home {
+            font-weight: bold;
+            font-size: 35px;
+        }
+
+        .nav-list {
+            font-family: cursive;
+            text-decoration: none;
+            font-size: 18px;
+
+            ul {
+                text-decoration: none;
+                display: flex;
+                padding: 0px 45px;
+                list-style-type: none;
+
+                li {
+                    padding: 0px 20px;
+                    a{
+                        text-decoration: none;
+    color: black;
+
+                    }
+                }
+            }
+        }
+
+        .nav-right {
+            display: flex;
+            padding-top: 15px;
+            padding-left: 300px;
+
+            .nav-cart {
+           
+                padding-top: 6px;
+    padding-right: 32px;
+            }
+                .nav-profile {
+                    img{
+                        width: 34px;
+                    }
+                }
+            
+        }
+
+    }
+
+    .container {
+        display: inline-flex;
+
+        .left-wrapper {
+            // color: red;
+            margin-top: 70px;
+            margin-left: 94px;
+            // border: solid;
+            height: 136%;
+
+            .img-slider-main {
+                height: 622px;
+                width: 727px;
+            }
+
+            .img-slider {
+                height: 450px;
+                // border: solid;
+                width: 600px;
+                margin-top: 20px;
+                border-radius: 10%;
+            }
+
+            .small-img-slider {
+                .img-slider {
+                    width: 100px;
+                    height: 100px;
+                    // border: solid;
+                    margin: 20px;
+                    border-radius: 10%;
+
+                }
+
+                .img-slider:focus {
+                    outline: 3px solid rgb(240, 118, 4);
+                    opacity: 0.6;
+                }
+            }
+        }
+
+        .right-wrapper {
+            text-align: left;
+            width: 600px;
+            margin-top: 130px;
+            padding: 20px;
+
+            small {
+                // float: left;
+                // padding-left: 60px;
+                text-transform: uppercase;
+                color: #f16704d1;
+                font-size: 16px;
+                font-weight: bold;
+                font-family: sans-serif;
+                line-height: 1px;
+                letter-spacing: 1.3px;
+            }
+
+            h2 {
+                font-size: 45px;
+                margin-top: 20px;
+                // float: left;
+            }
+
+            p {
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 500;
+                color: gray;
+            }
+
+            h4 {
+                display: inline-flex;
+                padding-right: 15px;
+                font-size: 32px;
+                margin-top: 10px;
+                margin-bottom: 0px;
+            }
+
+            .discount {
+                display: inline;
+                background-color: #cd8e1b26;
+                padding: 3px;
+                font-weight: bold;
+                color: #ff7600;
+                border-radius: 10%;
+                width: 20px;
+            }
+
+            h5 {
+                margin-top: 10px;
+                text-decoration: line-through;
+                color: gray;
+                font-size: 16px;
+            }
+
+            .btn-wrapper {
+                display: flex;
+                .counter {
+                    width: 123px;
+                    height: 43px;
+                    background-color: rgba(135, 206, 235, 0.231372549);
+                    border-radius: 10%;
+                    padding-top: 10px;
+                    display: block;
+                    margin-right: 20px;
+                }
+
+                .button-inc {
+                    width: 40px;
+                    height: 35px;
+                    background-color: transparent;
+                    border: none;
+                    margin-right: 10px;
+                    color: orange;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .button-dec {
+                    width: 40px;
+                    height: 35px;
+                    margin-right: 0px;
+                    background-color: transparent;
+                    border: none;
+                    margin-left: 10px;
+                    color: orange;
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+
+                .Counter-value {
+                    display: inline;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+            
+
+            .add-to-cart-btn {
+                width: 250px;
+                height: 50px;
+                background: #f98106e8;
+                font-weight: bold;
+                color: wheat;
+                font-size: 16px;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+}
